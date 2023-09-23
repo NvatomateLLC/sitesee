@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     # Make an API request
-    response = requests.get('API_URL')  # Replace 'API_URL' with the actual URL of the API you are using
+    response = requests.get('https://smartpixl.net/API2.0/GetSmartPiXLApi/')  # Replace 'API_URL' with the actual URL of the API you are using
     data = response.json()  # Assume the response is in JSON format
     
     # Visualize the data
