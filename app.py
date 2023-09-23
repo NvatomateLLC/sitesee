@@ -11,11 +11,11 @@ API_ENDPOINT = "https://api.smartpixl.com/data"  # Replace with the actual API e
 
 # Define the mandatory parameters for the API request
 params = {
-    "CompanyId": "123",  # Replace with the actual Company ID number
+    "CompanyId": "12493",  # Replace with the actual Company ID number
     "PiXLId": "1",  # Replace with the actual PiXL ID number
-    "Startdate": "2022-09-01",  # Replace with the actual start date
-    "Enddate": "2022-09-30",  # Replace with the actual end date
-    "UserTokenId": "YourUserTokenID"  # Replace with the actual User Token ID
+    "Startdate": "2023-01-01",  # Replace with the actual start date
+    "Enddate": "2023-09-30",  # Replace with the actual end date
+    "UserTokenId": "w3mEBSaqhNiHj5XhKhzS4JhhVcbyJIqWAdw"  # Replace with the actual User Token ID
 }
 
 @app.route('/')
