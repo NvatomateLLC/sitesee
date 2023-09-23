@@ -38,8 +38,12 @@ def home():
         # Process the result and render the appropriate template
         return render_template('success.html', result=result)
     else:
-        # Handle API request failure and render an error template
-        return render_template('error.html', error_message="Failed to make API request.")
+    # Print the status code and response content for debugging
+        print("Status Code:", response.status_code)
+    print("Response Content:", response.content)
+    # Handle API request failure and render an error template
+    return render_template('error.html', error_message="Failed to make API request.")
+
 
 if __name__ == '__main__':
     app.run(debug=True)
