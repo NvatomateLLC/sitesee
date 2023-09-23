@@ -13,8 +13,8 @@ user_token_id = "w3mEBSaqhNiHj5XhKhzS4JhhVcbyJIqWAdw"
 
 # Define the model data (replace with actual model data)
 model_data = {
-    "CompanyId": "12493",  # Replace with your actual Company ID
-    "PiXLId": "1",  # Replace with your actual PiXL ID
+    "CompanyId": "12406",  # Replace with your actual Company ID
+    "PiXLId": "29",  # Replace with your actual PiXL ID
     "Startdate": "2023-09-01",  # Replace with your actual start date
     "Enddate": "2023-09-30",  # Replace with your actual end date
 
