@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Define the base URL and UserTokenID
 base_url = "https://smartpixl.tech/Api2.0/CreatePiXL"
-user_token_id = "XGnkB6g16STzF20ujIEB6kEd67h9y"
+user_token_id = "w3mEBSaqhNiHj5XhKhzS4JhhVcbyJIqWAdw"
 
 # Define the model data (replace with actual model data)
 model_data = {
